@@ -66,14 +66,14 @@ jmolApplet(800, "load uploads/<?php echo pdb_ID()?>.pdb;color background white;s
 <table>
 <tr>
 <td>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <form>
 <td align="left">
 
 <input type="button" onclick="jmolScript('cartoon OFF; trace OFF; color cpk; spacefill 20%; wireframe 0.2;')" value="ball-and-stick">
 <input type="button" onclick="jmolScript('cartoon OFF; trace OFF; color cpk; spacefill 0; wireframe 0.01;')" value="wireframe">
 <input type="button" onclick="jmolScript('trace OFF; cartoon ON; color structure; spacefill 0; wireframe 0;')" value="Default">
-<br><br><br><br><br>
+<br>
 
 <br>
 <input type="button" value="show disulfide bonds" onclick="jmolScript('ssbonds on; color ssbonds [x00ffff];')">
