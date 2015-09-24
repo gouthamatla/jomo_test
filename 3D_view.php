@@ -72,9 +72,6 @@ jmolApplet(800, "load uploads/<?php echo pdb_ID()?>.pdb;color background white;s
 
 <input type="button" onclick="jmolScript('cartoon OFF; trace OFF; color cpk; spacefill 20%; wireframe 0.2;')" value="ball-and-stick">
 <input type="button" onclick="jmolScript('cartoon OFF; trace OFF; color cpk; spacefill 0; wireframe 0.01;')" value="wireframe">
-
-
-
 <input type="button" onclick="jmolScript('trace OFF; cartoon ON; color structure; spacefill 0; wireframe 0;')" value="Default">
 <br><br><br><br><br>
 
